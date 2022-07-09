@@ -1,0 +1,33 @@
+body{
+    width: 850px;
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card{
+    width: 250px;
+    height: 300px;
+    box-sizing: border-box;
+    border: 2px solid #b1adad;
+    padding-top: 30px;
+}
+.card > h3{
+    text-align: center;
+}
+.card > p{
+    text-align: center;
+    padding: 20px;
+    color: silver;
+}
+.button-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-box>button{
+    width: 175px;
+    height: 60px;
+    background: white;
+}

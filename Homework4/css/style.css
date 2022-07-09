@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteiner {
+    width: 850px;
+    height: 850px;
+    display: flex;
+    background: lawngreen;
+    flex-wrap: wrap;
+    padding: 60px 25px;
+}
+.fa-code, .fa-crop, .fa-pen-to-square, .fa-wordpress, .fa-id-card, .fa-accusoft{
+    font-size: 50px;
+    color: #b1adad;
+    margin: 40px;
+}
+
+.icon{
+    display: flex;
+    justify-content: left;
+    align-self:center;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 250px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: white;
+    margin: 10px;
+}
+.text{
+    display: block;
+    flex-direction: column;
+}
+.text > h3{display: flex;
+    justify-content: center;
+    color: darkorange;
+    padding: 30px 10px 0px 10px;
+}
+.text > p{
+    text-align: justify;
+    padding: 0px 30px 30px 30px;
+    color: silver;
+}
